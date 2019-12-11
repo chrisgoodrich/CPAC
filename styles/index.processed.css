@@ -1,0 +1,100 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+body {
+  background: #f5f5f5;
+}
+
+p {
+  font-family: "Lucida Console";
+  font-size: 70px;
+  color: #04BF8A;
+  text-align: center;
+}
+
+p2 {
+  font-family: Tahoma;
+  font-size: 20px;
+  color: #04BF8A;
+}
+
+.Jackson {
+  float: right;
+}
+
+.Logo {
+  float: left;
+  margin-top: -35px;
+}
+
+.topnav a:hover {
+  background-color: #04BF8A;
+  color: #F2BE22;
+}
+
+.topnav a.active {
+  background-color: yellow;
+  color: orange;
+}
+
+topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+p3 {
+  font-family: Tahoma;
+  font-size: 35px;
+  color: #04BF8A;
+}
+
+.text {
+  padding-bottom: 300px;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 325px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.container {
+  position: relative;
+}
+
+p4 {
+  font-family: Tahoma;
+  font-size: 30px;
+  color: #04BF8A;
+}
+
+p5 {
+  font-family: Tahoma;
+  font-size: 70px;
+  color: #F2BE22;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  border: 1px solid black;
+}
+
+p6 {
+  font-family: Tahoma;
+  color: #F2BE22;
+  font-size: 40px;
+}
